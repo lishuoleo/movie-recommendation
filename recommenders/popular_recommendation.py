@@ -67,7 +67,8 @@ def main():
     years.append(years_input)
     print('Noted. Any particular genre?')
     print('Here is a list of all genres: ')
-    print(genres_list)
+    for gene in genres_list:
+        print(gene)
     genres = []
     genres_input = input()
     genres.append(genres_input)
