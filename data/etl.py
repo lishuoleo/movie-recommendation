@@ -102,7 +102,7 @@ def main():
         print('Cleaned data saved to database!')
 
     else:
-        print('Please provide the filepaths of the messages and categories ' \
+        print('Please provide the url of the movies and reviews ' \
               'datasets as the first and second argument respectively, as ' \
               'well as the filepath of the database to save the cleaned data ' \
               'to as the third argument. \n\nExample: etl.py ' \
